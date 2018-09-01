@@ -1,0 +1,15 @@
+{
+  "plugins": ["transform-object-rest-spread"],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browser": ">1%",
+          "node": "8.0.0"
+        }
+      }
+    ],
+    "react"
+  ]
+}
